@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>NelApp</title>
+    <link rel="shortcut icon" type="image/x-icon" href="style/images/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="style/color/red.css" media="all" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style/css/prettyPhoto.css" />
+    <link rel="stylesheet" type="text/css" href="style/type/museo.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="style/type/ptsans.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="style/type/charis.css" media="all" />
+    <!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="style/css/ie7.css" media="all" />
+<![endif]-->
+    <!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="style/css/ie8.css" media="all" />
+<![endif]-->
+    <!--[if IE 9]>
+<link rel="stylesheet" type="text/css" href="style/css/ie9.css" media="all" />
+<![endif]-->
+    <script type="text/javascript" src="style/js/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="style/js/ddsmoothmenu.js"></script>
+    <script type="text/javascript" src="style/js/transify.js"></script>
+    <script type="text/javascript" src="style/js/jquery.aw-showcase.js"></script>
+    <script type="text/javascript" src="style/js/jquery.jcarousel.js"></script>
+    <script type="text/javascript" src="style/js/carousel.js"></script>
+    <script type="text/javascript" src="style/js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="style/js/jquery.superbgimage.min.js"></script>
+    <script type="text/javascript" src="style/js/jquery.slickforms.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function ($) {
+        $('.forms').dcSlickForms();
+      });
+    </script>
+
+  </head>
+
+  <body>
+    <!-- Fullscreen backgrounds -->
+    <div id="thumbs">
+      <a href="style/images/art/nature.jpg">1</a>
+      <a href="style/images/art/nature2.jpg">2</a>
+      <a href="style/images/art/nature3.jpg">3</a>
+      <a href="style/images/art/nature5.jpg">4</a>
+    </div>
+    <div id="superbgimage">
+      <div class="scanlines"></div>
+    </div>
+    <!-- End Fullscreen backgrounds -->
+    <!-- Begin Wrapper -->
+    <div id="wrapper">
+      <div id="header">
+        <div class="logo opacity"><a href="#"><img src="style/images/Logo 2 Final Version.jpg" alt="" /></a></div>
+        <div class="social">
+          <ul>
+            <li><a href="#"><img src="style/images/icon-rss.png" alt="RSS" /></a></li>
+            <li><a href="#"><img src="style/images/icon-facebook.png" alt="Facebook" /></a></li>
+            <li><a href="#"><img src="style/images/icon-twitter.png" alt="Twitter" /></a></li>
+            <li><a href="#"><img src="style/images/icon-googleplus.png" alt="Google+" /></a></li>
+            <li><a href="#"><img src="style/images/icon-dribble.png" alt="Dribble" /></a></li>
+            <li><a href="#"><img src="style/images/icon-flickr.png" alt="Flickr" /></a></li>
+            <li><a href="#"><img src="style/images/icon-tumblr.png" alt="Tumblr" /></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clear"></div>
+      <!-- Begin Menu -->
+      <div id="menu" class="menu opacity">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="#">Nos services</a>
+            <ul>
+              <li><a href="point_relais.html">Points relais</a></li>
+              <li><a href="#">Produits Locaux</a></li>
+              <li><a href="#">Transport</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Equipage</a>
+            <ul>
+              <li><a href="initiateur.html">Initiateurs</a></li>
+              <li><a href="animateur.html">Agents multi-service</a></li>
+              <li><a href="#">Transporteurs</a></li>
+            </ul>
+          </li>
+          <li><a href="archive.html">Témoignage</a></li>
+          <li><a href="#">A propos</a>
+            <ul>
+              <li><a href="#">Qui sommes nous ?</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Votre avis</a></li>
+        </ul>
+        <br style="clear: left" />
+      </div>
+      <!-- End Menu -->
+
+      <!-- Begin Container -->
+      <div id="container" class="opacity">
+        <div class="content">
+
+          <h2>Témoignages audios</h2>
+
+          <!--Debut archives-->
+          <form name="player" action="#" method="">
+            <select name="cancion" size="1" id="cancion" onChange="PlayIt()">
+              <option value="none" selected disabled>Ecouter Témoignages</option>
+              <option value="style\son\matroud.mp3">Ousmane ly de Ogo</option>
+            </select>
+          </form>
+          <!--Fin archive-->
+
+
+          <p><span id="music1">
+              <script type="text/javascript">
+                AC_AX_RunContent('type', 'application/x-mplayer2', 'width', '300', 'height', '45', 'data', '', 'src', '', 'filename', ''); //end AC code
+              </script><noscript><object type="application/x-mplayer2" width="300" height="45" data="#">
+                  <param name="src" value="">
+                  <param name="filename" value="">
+                  <param name="type" value="application/x-mplayer2">
+                  <embed src="#" width="300" height="45" filename="" type="application/x-mplayer2"></embed>
+                </object></noscript>
+            </span></p>
+        </div>
+
+
+        <div class="clear"></div>
+      </div>
+      <!-- End Wrapper --> ;
+
+      <script type="text/javascript" src="style/js/scripts.js"></script>;
+  </body>
+
+  <!-- Mirrored from www.savigilles.com/culture.php by HTTrack Website Copier/3.x [XR&CO'2013], Sat, 03 May 2014 20:35:55 GMT -->
+
+</html>
